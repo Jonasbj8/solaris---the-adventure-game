@@ -1,8 +1,15 @@
 {
-    "name": "Solaris - The Adventure game",
+    "name": "!!!CORRECT VERSION - Solaris - The Adventure game",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "animation": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0"
     },
     "files": [
         "main.blocks",
@@ -12,13 +19,14 @@
         "tilemap.g.jres",
         "tilemap.g.ts",
         "images.g.jres",
-        "images.g.ts"
+        "images.g.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.6.21",
+        "target": "1.6.24",
         "targetId": "arcade"
     },
     "supportedTargets": [
